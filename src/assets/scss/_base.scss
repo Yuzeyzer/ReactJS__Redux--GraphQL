@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montaga", serif;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+li {
+	list-style-type: none;
+}
+a {
+	display: inline-block;
+	-webkit-text-decoration: none;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
