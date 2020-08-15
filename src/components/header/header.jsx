@@ -1,8 +1,6 @@
 import React from 'react';
-import Nav from './nav';
-import Logo from './logo';
-
-import './styles/header.scss';
+import Nav from './components/nav';
+import Logo from './components/logo';
 
 export const Header = () => {
   return (
