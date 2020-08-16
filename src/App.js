@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import { Header } from './components';
 import { Home, Registration } from './pages';
@@ -10,8 +10,10 @@ const App = () => {
     <div className='App'>
       <Header />
       <main>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/sign-up' component={Registration} />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/sign-up' component={Registration} />
+        </Switch>
       </main>
     </div>
   );
