@@ -1,1 +1,14 @@
-@import './nav';
+@import "./nav";
+@import "./logo";
+
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+}

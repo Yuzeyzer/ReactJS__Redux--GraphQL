@@ -4,7 +4,7 @@ import Logo from './components/logo';
 
 export const Header = () => {
   return (
-    <header>
+    <header className='header'>
       <div className='container'>
         <div className='header__row'>
           <Logo />

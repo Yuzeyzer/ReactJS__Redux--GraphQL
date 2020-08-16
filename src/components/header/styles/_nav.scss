@@ -1,5 +1,13 @@
 .nav {
+	&__menu {
+		display: flex;
+	}
+	&__item {
+		margin-left: vw(20);
+	}
 	&__link {
 		font-size: vw(16);
+		font-weight: 400;
+		color: black;
 	}
 }

@@ -1,0 +1,27 @@
+.home {
+	height: 100vh;
+	overflow: hidden;
+	&__row {
+		display: flex;
+	}
+	&__column {
+		position: relative;
+		width: 50%;
+		-moz-text-align-last: center;
+		text-align-last: center;
+		img {
+			max-height: vh(768);
+			-o-object-fit: cover;
+			object-fit: cover;
+		}
+		span {
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: black;
+			font-size: 72px;
+		}
+	}
+}

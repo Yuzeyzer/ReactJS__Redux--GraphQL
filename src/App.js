@@ -1,15 +1,18 @@
 import React from 'react';
 
-import './assets/scss/index.scss';
 import { Header } from './components';
+import { Home } from './pages';
+import './assets/scss/index.scss';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <Header />
-      <main></main>
+      <main>
+        <Home />
+      </main>
     </div>
   );
-}
+};
 
 export default App;
