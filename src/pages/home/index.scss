@@ -7,10 +7,9 @@
 	&__column {
 		position: relative;
 		width: 50%;
-		-moz-text-align-last: center;
-		text-align-last: center;
 		img {
 			max-height: vh(768);
+			width: 100%;
 			-o-object-fit: cover;
 			object-fit: cover;
 		}
@@ -20,6 +19,8 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
+			background-color: #fff;
+			padding: 10px 40px;
 			color: black;
 			font-size: 72px;
 		}

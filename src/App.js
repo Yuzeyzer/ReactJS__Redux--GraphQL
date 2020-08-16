@@ -1,7 +1,8 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 
 import { Header } from './components';
-import { Home } from './pages';
+import { Home, Registration } from './pages';
 import './assets/scss/index.scss';
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
     <div className='App'>
       <Header />
       <main>
-        <Home />
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/sign-up' component={Registration} />
       </main>
     </div>
   );

@@ -21,8 +21,8 @@ function Nav() {
           </Link>
         </li>
         <li className='nav__item'>
-          <Link className='nav__link' to='/cart'>
-            Cart
+          <Link className='nav__link' to='/sign-up'>
+            Sign Up
           </Link>
         </li>
         <li className='nav__item'>
