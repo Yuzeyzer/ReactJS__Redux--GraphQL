@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import { Header } from './components';
+import { Header, Footer } from './components';
 import { Home, Registration } from './pages';
 import './assets/scss/index.scss';
 
@@ -12,9 +12,10 @@ const App = () => {
       <main>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/sign-up' component={Registration} />
+          <Route path='/sign-up' component={Registration} />
         </Switch>
       </main>
+      <Footer />
     </div>
   );
 };
